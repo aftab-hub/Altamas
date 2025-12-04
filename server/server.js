@@ -19,7 +19,7 @@ await connectDB()
 await connectCloudinary()
 
 // Allow multiple origins
-const allowedOrigins = ['http://localhost:5173', '']
+const allowedOrigins = [process.env.FRONTEND_URL]
 
 app.post('/razorpay', razorpayWebhooks)
 
