@@ -34,7 +34,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white relative transition-all">
 
       <NavLink to='/' onClick={()=> setOpen(false)}>
-        <img className="h-9" src={assets.logo} alt="logo" />
+        <img className="h-12 w-50 object-cover" src={assets.Logo} alt="logo" />
       </NavLink>
 
       <div className="hidden sm:flex items-center gap-8">
@@ -79,7 +79,7 @@ const Navbar = () => {
       
 
       { open && (
-        <div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}>
+        <div className={`${open ? 'flex' : 'hidden'}  top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}>
         <NavLink to="/" onClick={()=> setOpen(false)}>Home</NavLink>
         <NavLink to="/products" onClick={()=> setOpen(false)}>All Product</NavLink>
         {user && 
