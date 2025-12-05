@@ -1,4 +1,4 @@
-import Logo from "./Logo.jpeg";
+import logo from "./Logo.jpeg";
 import search_icon from "./search_icon.svg";
 import remove_icon from "./remove_icon.svg";
 import arrow_right_icon_colored from "./arrow_right_icon_colored.svg";
@@ -71,7 +71,7 @@ import brown_rice_image from "./brown_rice_image.png";
 import barley_image from "./barley_image.png";
 
 export const assets = {
-  Logo,
+  logo,
   search_icon,
   remove_icon,
   arrow_right_icon_colored,
@@ -151,8 +151,8 @@ export const footerLinks = [
     links: [
       { text: "Home", url: "#" },
       { text: "Best Sellers", url: "#" },
+      { text: "Privacy Policy", url: "#" },
       { text: "Offers & Deals", url: "#" },
-      { text: "Contact Us", url: "#" },
       { text: "FAQs", url: "#" },
     ],
   },
@@ -163,9 +163,10 @@ export const footerLinks = [
       { text: "Return & Refund Policy", url: "#" },
       { text: "Payment Methods", url: "#" },
       { text: "Track your Order", url: "#" },
-      { text: "Contact Us", url: "#" },
+      
     ],
   },
+  
   {
     title: "Follow Us",
     links: [
@@ -173,6 +174,16 @@ export const footerLinks = [
       { text: "Twitter", url: "#" },
       { text: "Facebook", url: "#" },
       { text: "YouTube", url: "#" },
+    ],
+  },
+  {
+    title: "Contact Us",
+    links: [
+      { text: "+91 9910433300" },
+      { text: "09:30AM-06:00PM MON-SAT" },
+      { text: "care@not-expensive.com" },
+      { text: "Address :  Plot No 33, Sector 58 Noida, Noida, Block C, Sector 58 Noida, Gautam Buddha Nagar, Uttar Pradesh, 201301" },
+    
     ],
   },
 ];
